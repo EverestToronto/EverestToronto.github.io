@@ -1,0 +1,91 @@
+.logo_text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.promo-block-title {
+    font-size: 55px;
+}
+
+.spacer_1 {
+    padding-top: 15px;
+    padding-bottom: 55px;
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+}
+
+.promo-block:before {
+    // background: rgba(81,87,105,.3);
+    background: rgba(53, 53, 53, 0.61);
+}
+
+.services_title {
+    margin-bottom: 2em;
+}
+
+#team {
+
+    .team_bg {
+        background: #3e3e3e !important;
+    }
+
+    .services_title {
+        color: white;
+    }
+
+    .team_img {
+        width: 38%;
+    }
+
+    .team_name {
+        margin-top: 1em;
+        font-size: 21px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .team_position {
+        // margin-top: 1em;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+#contact {
+    h2 {
+        margin-top: 2em;
+    }
+
+    .cont_top_text {
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    label {
+        display: block;
+        font-weight: 500;
+    }
+
+    input {
+        width: 60%;
+        font-size: 17px;
+        padding: 6px 4px 2px 7px;
+    }
+
+    .send_btn {
+        width: 8em;
+        color: white;
+        font-size: 20px;
+        padding-top: 10px;
+        margin-top: 1em;
+
+        background-color: #2b4950;
+        transition: background-color 0.5s ease;
+    }
+
+    .send_btn:hover {
+        background-color: #5e7479;
+    }
+}
