@@ -24,6 +24,62 @@
     margin-bottom: 2em;
 }
 
+#work {
+    .aWorks {
+        background-color: #828e99;
+        transition: background-color 0.3s ease;
+
+        padding: 26px 10px;
+        border-radius: 8px;
+        margin-bottom: 1em;
+
+        .imgCol {
+            img {
+                width: 61%;
+                display: block;
+                margin: auto;
+                margin-top: 0.6em;
+                border-radius: 50%;
+            }
+        }
+
+        .textCol {
+            padding-top: 0.7em;
+
+            h5 {
+                margin-bottom: 5px;
+                color: white;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 500;
+                color: white;
+                margin-bottom: 5px;
+            }
+
+            ul {
+                list-style-type: initial;
+                padding-left: 21px;
+
+                li {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: white;
+                }
+            }
+        }
+    }
+    .aWorksLight {
+        background-color: #c3ced9 !important;
+    }
+    .aWorks:hover {
+        background-color: red;
+    }
+}
+
 #team {
 
     .team_bg {
@@ -87,5 +143,56 @@
 
     .send_btn:hover {
         background-color: #5e7479;
+    }
+}
+
+
+@media(max-width: 600px) {
+    #service {
+        .content-lg {
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+    }
+
+    #work {
+        .content-md {
+            display: inline-block;
+            margin-bottom: 1em;
+            padding-top: 40px;
+
+            .aWorks {
+                text-align: center;
+                margin: 0;
+                margin-bottom: 1em;
+
+                .imgCol {
+                    img {
+                        width: 31%;
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .textCol {
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0;
+                    }
+
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    li {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .aWorks:hover {
+
+            }
+
+        }
     }
 }
