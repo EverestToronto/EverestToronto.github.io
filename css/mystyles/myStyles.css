@@ -52,7 +52,7 @@
 #work .aWorksLight {
   background-color: #c3ced9 !important; }
 #work .aWorks:hover {
-  background-color: red; }
+  background-color: #7d7b7b !important; }
 
 #team .team_bg {
   background: #3e3e3e !important; }
@@ -68,7 +68,8 @@
   color: white; }
 #team .team_position {
   font-weight: 500;
-  font-size: 17px; }
+  font-size: 17px;
+  margin-bottom: 5px; }
 
 #contact h2 {
   margin-top: 2em; }
