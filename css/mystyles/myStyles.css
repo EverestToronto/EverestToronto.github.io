@@ -98,6 +98,9 @@
   #service .content-lg {
     padding-top: 40px;
     padding-bottom: 50px; }
+  #service .service {
+    padding: 30px 50px;
+    height: 236px !important; }
 
   #work .content-md {
     display: inline-block;
